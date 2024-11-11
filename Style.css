@@ -1,5 +1,13 @@
-table
-{
-    text-align: center;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-  
+h1{text-align: center;
+}
+input[type="submit"] 
+{   color: black;}
