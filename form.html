@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application Form</title>
+        <link rel="stylesheet" href="Style.css">
+        </head>
+        
+    <body>
+               <div class="container">
+            <div class="heading">
+                <h1>Application Form</h1>
+                Thank you for the interest shown in MNJ Software. Please take a few minutes of your time to fill in the following details to help us understand your technical skills and personal competencies better.
+                <div class="image-box" ><input type="file" name="image" accept="image/*" >
+                </div>
+                 <div class="instructions">
+                <strong><p>Please keep in mind the following when filling up the form:</p></strong>
+            <ol><li>  1.	Fill in the boxes in the application blank in bold capital 
+                      Letters unless the content is of a descriptive nature.</li>
+              <li>   2.	Fill in the details according to the format mentioned 
+                      For the date and day. </li>
+                </ol>
+            </div></div>
+            <form>
+         <div>
+            <table>
+            <tr>
+                <td>NAME (As in Passport)</td>
+                <td colspan="4"><input type="text"  placeholder=""name="Name"></td></tr>
+            <tr><td>Father's name:</td>
+                    <td colspan="5"><input type="text" placeholder=""name="fathers_name"></td></tr>
+            <tr><td>Nationality:</td>
+                <td><input type="text" placeholder=""name="Nationality"></td>
+                <td>Social Security Number (if applicable):</td>
+                <td colspan="3"><input type="text" placeholder=""name="Social"</td></tr>
+            <tr><td>Sex:</td>
+                <td><input type="text" placeholder=""name="sex"></td>
+                <td>Marital Status:</td>
+                <td><input type="text" placeholder="" name="marital_status"></td></tr>
+               <tr><td>Pan card number:</td>
+                <td colspan="5"><input type="text" placeholder=""name="pan_card"></td></tr>
+                <tr><td>Date of birth:</td>
+                <td><input type="date"placeholder="dd/mm/yy"name="dob"></td>
+                <td>Place of birth:</td>
+                <td colspan="5"><input type="text"placeholder=""name="Place"></td></tr>
+                </table>
+                </div>
+                <table>
+                    <div>
+                 <tr><td>ADDRESS:</td>
+                <td>Present Address</td>
+            <td>Permanent Address</td></tr>
+            <tr><td>House no.</td>
+            <td><input type="text" placeholder="" name="present_house_no"></td>
+            <td colspan="4"><input type="text" placeholder="" name="permanent_house_no"></td></tr>
+            <tr><td>Locality / City</td>
+               <td><input type="text" placeholder=""name="present_city"></td>
+                    <td colspan="4"><input type="name" placeholder="" name="permanent_city"></td></tr>
+                    <tr><td>State</td>
+               <td><input type="text" placeholder="" name="present_state"></td>
+                    <td colspan="4"><input type="text" placeholder=""name="permanent_state"></td></tr>
+                <tr><td>Pin code</td>
+                   <td><input type="number" placeholder=""name="present_pin"></td>
+                        <td colspan="4"><input type="number" placeholder="" name="permanent_pin"></td></tr>
+                <tr><td>Period of stay</td>
+                    <td><input type="number" placeholder="" name="present_stay"></td>
+                        <td colspan="4"><input type="number" placeholder="" name="permanent_stay"></td></tr>
+                <tr><td>(Telephone)</td>
+                          <td><input type="number" placeholder=""name="present_telephone"></td>
+                                <td colspan="4"><input type="number" placeholder="" name="permanent_telephone"></td></tr>
+                <tr><td>(Mobile)</td>
+                <td><input type="number" placeholder="" name="present_mobile"></td>
+                    <td ><input type="number" placeholder="" name="permanent_mobile"></td></tr>
+                <tr><td>Email Id (personal)</td>
+                    <td><input type="email" placeholder="1" name="present_email"></td>
+                    <td><input type="email" placeholder="2" name="permanent_email"></td></tr>
+                    <tr>
+                        <td>Instant Messaging System ID:</td>
+                        <td><input type="text" placeholder="" name="present_im"></td>
+                        <td colspan="4"><input type="text" placeholder="" name="permanent_im"></td>
+                    </tr>       
+                </div>
+                    </table>
+        <div>
+            <table>
+                <tr><td colspan="4">Passport Details:</td>
+                    <td><input type="radio" value="Available" name="passport">Available</td>
+                    <td><input type="radio" value="NA" name="passport">N/A</td>
+                    <td><input type="radio" value="not_available" name="passport">Not Available</td>
+                    <td><input type="radio" value="Applied" name="passport">Applied</td></tr>
+                <tr><td>Number:</td>
+                    <td><input type="number" placeholder="" name="passport_number"></td></tr>
+                <tr><td>Date of Issue:</td>
+                <td><input type="date" placeholder="dd/mm/yy" name="passport_issue_date"></td></tr>
+                <tr><td>Date of Expiry</td>
+                <td><input type="date" placeholder="dd/mm/yy" name="passport_expiry_date"></td></tr>
+                <tr><td>Place of Issue:</td>
+                <td><input type="text" placeholder="" name="passport_place_issue"></td></tr>
+        </div>
+    </table>
+    <div class="header">
+        <div class="left">
+            <p>MNJ Software Ver: 1.5</p>
+        </div>
+        <div class="center">
+            <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+        </div>
+        <div class="right">
+            <p>Page 1 of 9</p>
+            <p>HR Dept. - FORMS - Application Form.</p>
+        </div>
+    </div>
+            <div class="container">
+              <form>
+                <table class="top">
+                    <tr><td>Do you have a valid VISA? If yes, please mention the type of Visa</td>
+                <td class="checkbox-cell"><input type="checkbox" value="yes"name="visa">Yes</td>
+                <td class="checkbox-cell"><input type="checkbox" value="No" name="visa">No</td>
+                <td class="checkbox-cell"><input type="text" placeholder="Type of visa" name="visa-type"></td></tr>
+            <tr>
+                <td>Are you open to Travel to the USA / Sri Lanka on work for a period of 6 months/less during a year?</td>
+                <td class="checkbox-cell"><input type="checkbox" value="yes" name="travel">Yes</td>
+                <td class="checkbox-cell"><input type="checkbox" value="No" name="travel">No</td>
+            </tr> 
+              </table> 
+               </form> 
+             </div>
+            <table class="top">
+                <tr>
+                   <th><strong>Sr no.</strong></th>
+                   <th><strong>Languages Known</strong></th>
+                   <th><strong>Read</strong></th>
+                   <th><strong>Write</strong></th>
+                   <th><strong>Speak</strong></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" name="language1"></td>
+                    <td><input type="text" name="read1"></td>
+                    <td><input type="text" name="write1"></td>
+                    <td><input type="text" name="speak1"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" name="language2"></td>
+                    <td><input type="text" name="read2"></td>
+                    <td><input type="text" name="write2"></td>
+                    <td><input type="text" name="speak2"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text" name="language3"></td>
+                    <td><input type="text" name="read3"></td>
+                    <td><input type="text" name="write3"></td>
+                    <td><input type="text" name="speak3"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><input type="text" name="language4"></td>
+                    <td><input type="text" name="read4"></td>
+                    <td><input type="text" name="write4"></td>
+                    <td><input type="text" name="speak4"></td>
+                </tr>
+            </table>
+            <table class="top">
+                    <th colspan="5">Family Information (Parents, Brothers, Sisters, Spouse & Children)</th>
+                <tr>
+                        <th><strong>Sr no.</strong></th>
+                        <th><strong>Name</strong></th>
+                        <th><strong>Relationship</strong></th>
+                        <th><strong>Date of birth</strong></th>
+                        <th><strong>Age</strong></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" name="name1"></td>
+                    <td><input type="text" name="relationship1"></td>
+                    <td><input type="date" name="date1"></td>
+                    <td><input type="number" name="age1"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" name="name2"></td>
+                    <td><input type="text" name="relationship2"></td>
+                    <td><input type="date" name="date2"></td>
+                    <td><input type="number" name="age2"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text" name="name3"></td>
+                    <td><input type="text" name="relationship3"></td>
+                    <td><input type="date" name="date3"></td>
+                    <td><input type="number" name="age3"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><input type="text" name="name4"></td>
+                    <td><input type="text" name="relationship4"></td>
+                    <td><input type="date" name="date4"></td>
+                    <td><input type="number" name="age4"></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><input type="text" name="name5"></td>
+                    <td><input type="text" name="relationship5"></td>
+                    <td><input type="date" name="date5"></td>
+                    <td><input type="number" name="age5"></td>
+                </tr>
+        </table>
+        <div class="header">
+            <div class="left">
+                <p>MNJ Software Ver: 1.5</p>
+            </div>
+            <div class="center">
+                <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+            </div>
+            <div class="right">
+                <p>Page 2 of 9</p>
+                <p>HR Dept. - FORMS - Application Form.</p>
+            </div>
+        </div>
+          <div class="container">
+            <form>
+               <div class="form-group top">
+                  <label for="ssn">SSN No. (mandatory if studied in USA or Canada):</label>
+                    <input type="text" id="ssn" name="ssn">
+              </div>
+                <p class="note">* Please mention the last full time degree</p>
+      <table class="top">
+         <thead>
+            <tr>
+                <th><strong>program</strong></th>
+                <th><strong>institute</strong></th>
+                <th colspan="2"><strong>Duration</strong></th>
+                <th><strong>%</strong></th>
+            </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td><input type="text" placeholder="" name="program"></td>
+                <td><input type="text" placeholder="" name="institute"></td>
+                <td><input type="date" placeholder="" name="from"></td>
+                <td><input type="date" placeholder="" name="to"></td>
+                <td><input type="text" placeholder="" name="percentage"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="" name="program"></td>
+                <td><input type="text" placeholder="" name="institute"></td>
+                <td><input type="date" placeholder="" name="from"></td>
+                <td><input type="date" placeholder="" name="to"></td>
+                <td><input type="text" placeholder="" name="percentage"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="" name="program"></td>
+                <td><input type="text" placeholder="" name="institute"></td>
+                <td><input type="date" placeholder="" name="from"></td>
+                <td><input type="date" placeholder="" name="to"></td>
+                <td><input type="text" placeholder="" name="percentage"></td>
+            </tr>
+            </tbody>
+            </table>
+        <div class="top">
+                 <th colspan="5">Seminars / Training Programs Attended</th>
+      </div>
+        <form>
+          <table>
+              <thead>
+              <tr>
+                    <th><strong>sr no</strong></th>
+                    <th><strong>Seminars / Training Programs </strong></th>
+                    <th><strong>conducted by</strong></th>
+                    <th colspan="2"><strong>Duration</strong></th>
+                </tr>
+                 <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th><strong>From</strong></th>
+                        <th><strong>To</strong></th>
+                 </tr>
+          </thead>
+              <tbody>
+                <tr>
+                        <td>1</td>
+                        <td><input type="text" placeholder="" name="seminar1"></td>
+                        <td><input type="text" placeholder="" name="conducted_by1"></td>
+                        <td><input type="date" placeholder="" name="from1"></td>
+                        <td><input type="date" placeholder="" name="to1"></td>
+                </tr>
+                 <tr>
+                        <td>2</td>
+                        <td><input type="text" placeholder="" name="seminar2"></td>
+                        <td><input type="text" placeholder="" name="conducted_by2"></td>
+                        <td><input type="date" placeholder="" name="from2"></td>
+                        <td><input type="date" placeholder="" name="to2"></td>
+                </tr>
+                <tr>
+                        <td>3</td>
+                        <td><input type="text" placeholder="" name="seminar3"></td>
+                        <td><input type="text" placeholder="" name="conducted_by3"></td>
+                        <td><input type="date" placeholder="" name="from3"></td>
+                        <td><input type="date" placeholder="" name="to3"></td>
+                </tr>
+                </tbody>
+                </table>
+            <table class="top">
+                <thead>
+                   <tr>
+                        <th colspan="3">MAJOR ACHIEVEMENTS / PUBLICATIONS TO YOUR CREDIT</th></tr>
+                        <tr><th>Sr no</th>
+                       <th>Description</th>
+                        <th>year</th>
+                 </tr>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" placeholder="enter description" name="description1"></td>
+                        <td><input type="text" placeholder="enter year" name="year1"></td>
+                    </tr>
+                    <tr>
+                            <td>2</td>
+                            <td><input type="text" placeholder="enter description" name="description2"></td>
+                            <td><input type="text" placeholder="enter year" name="year2"></td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        <table class="top">
+                        <tr>
+                            <th>Sr no</th>
+                            <th>Title</th>
+                            <th>Company</th>
+                            <th>Client</th>
+                            <th>Platform and Skills</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><input type="text" placeholder="" name="title1"></td>
+                            <td><input type="text" placeholder="" name="company1"></td>
+                            <td><input type="text" placeholder="" name="client1"></td>
+                            <td><input type="text" placeholder="" name="platform1"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><input type="text" placeholder="" name="title2"></td>
+                            <td><input type="text" placeholder="" name="company2"></td>
+                            <td><input type="text" placeholder="" name="client2"></td>
+                            <td><input type="text" placeholder="" name="platform2"></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><input type="text" placeholder="" name="title3"></td>
+                            <td><input type="text" placeholder="" name="company3"></td>
+                            <td><input type="text" placeholder="" name="client3"></td>
+                            <td><input type="text" placeholder="" name="platform3"></td>
+                        </tr>
+                        </table>
+                        <div class="header">
+                            <div class="left">
+                                <p>MNJ Software Ver: 1.5</p>
+                            </div>
+                            <div class="center">
+                                <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+                            </div>
+                            <div class="right">
+                                <p>Page 3 of 9</p>
+                                <p>HR Dept. - FORMS - Application Form.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="section-header">
+                                <h2>Details of Previous Employers (Starting from your Current Job, covering up to Last 3 Employments)
+                                </h2>
+                                <p>Please attach a copy of your relieving letter/service certificate for this</p>
+                            </div>
+                            <form>
+                            <table>
+                                <tr>
+                      <td>Company Name(1)</td>
+                      <td><input type="text" placeholder=""name="company1"></td>
+                     <td>Last Designation Field</td>
+                     <td><input type="text" placeholder="" name="designation1"></td>
+          </tr>
+       <tr>
+                    <td>Address (main office and branch where worked):</td>
+                 <td><input type="text" placeholder=""name="address1"></td>
+                <td>Telephone</td>
+                <td><input type="number" placeholder="" name="telephone1"></td>
+      </tr>
+      <tr>
+            <td>Employment Period (From)</td>
+            <td><input type="date" placeholder="dd/mm/yy"name="date1"></td>
+           <td>Employment Period (To)</td>
+           <td><input type="number" placeholder="" name="date2"></td>
+       </tr>
+      <tr>
+           <td>Employee code/Personal no:</td>
+            <td><input type="number" placeholder=""name="employee_code1"></td>
+            <td>Name of Reporting Manager:</td>
+            <td><input type="text" placeholder="" name="reporting_manager1"></td>
+        </tr>
+      <tr>
+              <td>Name of HR:</td>
+               <td><input type="text" placeholder=""name="hr_name1"></td>
+               <td>Contact No. of HR:</td>
+              <td><input type="number" placeholder="" name="hr_contact1"></td>
+          </tr>
+          <tr>
+                <td>Email Id of HR:</td>
+                <td><input type="email" placeholder=""name="hr_email1"></td>
+                 <td>Designation & Department of Reporting Manager:</td>
+                 <td><input type="number" placeholder="" name="designation1"></td>
+             </tr>
+            <tr>
+                <td>Contact no of Reporting Manager:</td>
+               <td><input type="number" placeholder=""name="reporting_manager_contact1"></td>
+                <td>Email Id of Reporting Manager:</td>
+                <td><input type="email" placeholder="" name="reporting_manager_email1"></td>
+            </tr>
+          <tr>
+                    <td>Name of Alternative Reporting manager:</td>
+                    <td><input type="text" placeholder=""name="alternative_reporting_manager"></td>
+                    <td>Contact no of Alternative Reporting Manager:</td>
+                     <td><input type="number" placeholder="" name="alternative_reporting_manager_contact1"></td>
+            </tr>
+            <tr>
+           <td>Email Id of Alternative Reporting manager:</td>
+           <td><input type="email" placeholder=""name="alternative_reporting_manager_email1"></td>
+           <td>Designation & Department of Alternative Reporting Manager:</td>
+            <td><input type="number" placeholder="" name="alternative_reporting_manager_designation1"></td>
+        </tr>
+       <tr>
+             <td colspan="2">Whether employment is of permanent or temporary nature:
+             <input type="checkbox" name="employment_permanent1">Permenent
+            <input type="checkbox"  name="employment_temporary1">Temporary</td>
+             <td>Agency details (If temporary or contractual)</td>
+            <td><input type="text" placeholder="" name="agency_details1"></td>
+        </tr>
+        <tr>
+                    <td>Remunerations (CTC pa):</td>
+                    <td><input type="number" placeholder="" name="remuneration1"></td>
+                    <td>Reasons (for leaving):</td>
+                <td><input type="text" placeholder="" name="reasons_for_leaving1"></td>
+             </tr>
+          </table>
+       </form>
+       <div class="header">
+        <div class="left">
+            <p>MNJ Software Ver: 1.5</p>
+        </div>
+        <div class="center">
+            <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+        </div>
+        <div class="right">
+            <p>Page 4 of 9</p>
+            <p>HR Dept. - FORMS - Application Form.</p>
+        </div>
+    </div>
+       <form>
+                <div class="container">
+               <div class="section-header">
+               <h2>Details of Previous Employers (Starting from your Current Job, covering up to Last 3 Employments)
+                </h2>
+                <p>Please attach a copy of your relieving letter/service certificate for this</p>
+             </div>
+            <table>
+        <tr>
+             <td>Company Name(1)</td>
+              <td><input type="text" placeholder=""name="company1"></td>
+              <td>Last Designation Field</td>
+              <td><input type="text" placeholder="" name="designation1"></td>
+         </tr>
+       <tr>
+             <td>Address (main office and branch where worked):</td>
+             <td><input type="text" placeholder=""name="address1"></td>
+             <td>Telephone</td>
+             <td><input type="number" placeholder="" name="telephone1"></td>
+        </tr>
+        <tr>
+              <td>Employment Period (From)</td>
+             <td><input type="date" placeholder="dd/mm/yy"name="date1"></td>
+             <td>Employment Period (To)</td>
+             <td><input type="number" placeholder="" name="date2"></td>
+        </tr>
+        <tr>
+             <td>Employee code/Personal no:</td>
+              <td><input type="number" placeholder=""name="employee_code1"></td>
+             <td>Name of Reporting Manager:</td>
+           <td><input type="text" placeholder="" name="reporting_manager1"></td>
+       </tr>
+      <tr>
+             <td>Name of HR:</td>
+             <td><input type="text" placeholder=""name="hr_name1"></td>
+             <td>Contact No. of HR:</td>
+             <td><input type="number" placeholder="" name="hr_contact1"></td>
+       </tr>
+    <tr>
+              <td>Email Id of HR:</td>
+             <td><input type="email" placeholder=""name="hr_email1"></td>
+             <td>Designation & Department of Reporting Manager:</td>
+             <td><input type="number" placeholder="" name="designation1"></td>
+       </tr>
+        <tr>
+                <td>Contact no of Reporting Manager:</td>
+                <td><input type="number" placeholder=""name="reporting_manager_contact1"></td>
+                <td>Email Id of Reporting Manager:</td>
+               <td><input type="email" placeholder="" name="reporting_manager_email1"></td>
+           </tr>
+          <tr>
+               <td>Name of Alternative Reporting manager:</td>
+               <td><input type="text" placeholder=""name="alternative_reporting_manager"></td>
+               <td>Contact no of Alternative Reporting Manager:</td>
+               <td><input type="number" placeholder="" name="alternative_reporting_manager_contact1"></td>
+           </tr>
+           <tr>
+                <td>Email Id of Alternative Reporting manager:</td>
+                <td><input type="email" placeholder=""name="alternative_reporting_manager_email1"></td>
+                <td>Designation & Department of Alternative Reporting Manager:</td>
+               <td><input type="number" placeholder="" name="alternative_reporting_manager_designation1"></td>
+           </tr>
+           <tr>
+                <td colspan="2">Whether employment is of permanent or temporary nature:
+                <input type="checkbox" name="employment_permanent1">Permenent
+               <input type="checkbox"  name="employment_temporary1">Temporary</td>
+               <td>Agency details (If temporary or contractual)</td>
+            </tr>
+            <tr>
+              <td>Remunerations (CTC pa):</td>
+             <td><input type="number" placeholder="" name="remuneration1"></td>
+              <td>Reasons (for leaving):</td>
+              <td><input type="text" placeholder="" name="reasons_for_leaving1"></td>
+           </tr>
+        </table>
+        <div class="header">
+            <div class="left">
+                <p>MNJ Software Ver: 1.5</p>
+            </div>
+            <div class="center">
+                <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+            </div>
+            <div class="right">
+                <p>Page 5 of 9</p>
+                <p>HR Dept. - FORMS - Application Form.</p>
+            </div>
+        </div>
+       </div>
+   </form>
+         <form>
+            <div class="container">
+              <div class="section-header">
+                 <h2>Details of Previous Employers (Starting from your Current Job, covering up to Last 3 Employments)
+                                                </h2>
+                    <p>Please attach a copy of your relieving letter/service certificate for this</p>
+              </div>
+                <table>
+                  <tr>
+                    <td>Company Name(1)</td>
+                    <td><input type="text" placeholder=""name="company1"></td>
+                     <td>Last Designation Field</td>
+                      <td><input type="text" placeholder="" name="designation1"></td>
+      </tr>
+      <tr>
+            <td>Address (main office and branch where worked):</td>
+          <td><input type="text" placeholder=""name="address1"></td>
+           <td>Telephone</td>
+         <td><input type="number" placeholder="" name="telephone1"></td>
+    </tr>
+     <tr>
+          <td>Employment Period (From)</td>
+         <td><input type="date" placeholder="dd/mm/yy"name="date1"></td>
+         <td>Employment Period (To)</td>
+        <td><input type="number" placeholder="" name="date2"></td>
+      </tr>
+     <tr>
+        <td>Employee code/Personal no:</td>
+        <td><input type="number" placeholder=""name="employee_code1"></td>
+        <td>Name of Reporting Manager:</td>
+       <td><input type="text" placeholder="" name="reporting_manager1"></td>
+    </tr>
+     <tr>
+         <td>Name of HR:</td>
+         <td><input type="text" placeholder=""name="hr_name1"></td>
+         <td>Contact No. of HR:</td>
+         <td><input type="number" placeholder="" name="hr_contact1"></td>
+     </tr>
+    <tr>
+         <td>Email Id of HR:</td>
+         <td><input type="email" placeholder=""name="hr_email1"></td>
+        <td>Designation & Department of Reporting Manager:</td>
+        <td><input type="number" placeholder="" name="designation1"></td>
+    </tr>
+   <tr>
+         <td>Contact no of Reporting Manager:</td>
+          <td><input type="number" placeholder=""name="reporting_manager_contact1"></td>
+         <td>Email Id of Reporting Manager:</td>
+        <td><input type="email" placeholder="" name="reporting_manager_email1"></td>
+    </tr>
+    <tr>
+            <td>Name of Alternative Reporting manager:</td>
+            <td><input type="text" placeholder=""name="alternative_reporting_manager"></td>
+             <td>Contact no of Alternative Reporting Manager:</td>
+            <td><input type="number" placeholder="" name="alternative_reporting_manager_contact1"></td>
+      </tr>
+      <tr>
+           <td>Email Id of Alternative Reporting manager:</td>
+           <td><input type="email" placeholder=""name="alternative_reporting_manager_email1"></td>
+           <td>Designation & Department of Alternative Reporting Manager:</td>
+          <td><input type="number" placeholder="" name="alternative_reporting_manager_designation1"></td>
+      </tr>
+      <tr>
+        <td colspan="2">Whether employment is of permanent or temporary nature:
+        <input type="checkbox" name="employment_permanent1">Permenent
+          <input type="checkbox"  name="employment_temporary1">Temporary</td>
+          <td>Agency details (If temporary or contractual)</td>
+           <td><input type="text" placeholder="" name="agency_details1"></td>
+    </tr>
+       <tr>
+          <td>Remunerations (CTC pa):</td>
+            <td><input type="number" placeholder="" name="remuneration1"></td>
+          <td>Reasons (for leaving):</td>
+          <td><input type="text" placeholder="" name="reasons_for_leaving1"></td>
+      </tr>
+       </table>
+       <div class="header">
+        <div class="left">
+            <p>MNJ Software Ver: 1.5</p>
+        </div>
+        <div class="center">
+            <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+        </div>
+        <div class="right">
+            <p>Page 5 of 10</p>
+            <p>HR Dept. - FORMS - Application Form.</p>
+        </div>
+    </div>
+       </div>
+            <div>
+             <h1>Declaration and Authorization</h1>
+                <p>I understand that any employment by MNJ Software India Private Limited or its affiliated companies is conditioned upon positive responses from my references, bonding eligibility, continued adherence to MNJ Software India Private Limited policies and procedures, applicable rules and regulations and job performance satisfactory at all times to MNJ Software Private Limited.</p>
+                <p>I consent to take any pre or post-employment examinations as may be required by MNJ Software Private Limited or its permitted agents, its representative, and release MNJ Software Private Limited and its agents from any liability that may arise from such examination.</p>
+                <p>I authorize an inquiry to be made on the information contained on this application. Former employers and officials of education institutes, named on this application are authorized to give information about me and I release them from all liability for issuing such information.</p>
+                <p>I hereby attest and warrant that all my answers on this application as well as on all forms completed in conjunction with my employment are true and accurate. I understand that any misrepresentation of facts, failure to disclose information required on this application or material change in my information provided which is not reported to Human Resources shall be cause for dismissal regardless of when discovered by MNJ Software Private Limited.</p>
+                <p>I understand, and authorize, that MNJ Software may share my consumer report and/or investigative report with third parties including auditors, government agencies, and clients as necessary.</p>
+                <p>I hereby declare that the information given by me is true and the certificates or documents submitted are genuine to the best of my knowledge.</p>
+                <div class="signature">
+                    <div>
+                        <label for="signed">Signed:</label>
+                      
+                    </div>
+                    <div>
+                        <label for="name">Name in Block Capitals:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="header">
+                        <div class="left">
+                            <p>MNJ Software Ver: 1.5</p>
+                        </div>
+                        <div class="center">
+                            <img src="https://www.mnjsoftware.com/assets/images/logo/logo-blu.png" alt="MNJ Logo">
+                        </div>
+                        <div class="right">
+                            <p>Page 7 of 10</p>
+                            <p>HR Dept. - FORMS - Application Form.</p>
+                        </div>
+                    </div>
+                    </form>
+    </body>
+    </html>
